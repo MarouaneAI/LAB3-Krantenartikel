@@ -1,0 +1,43 @@
+body	{
+
+		background-color: rgb(226, 226, 226);
+
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1		{
+
+		color: 			black;
+		text-align: 	center;
+		font-style:		bold;
+		font-family: 	"Arial";
+
+}
+
+h2		{
+
+		columns: 		
+		color:			black;
+		text-align: 	center;
+		font-family: 	"Arial";
+
+}
+
+
+p		{
+
+		columns: 		
+		font-family:	"Arial";
+		font-size:		22px;
+
+}
